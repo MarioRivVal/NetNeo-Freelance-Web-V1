@@ -1,0 +1,43 @@
+      <svg
+          viewBox="0 0 1512 501"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            id="curvePath"
+            d="M1512 107C1451 36.5 1306 120.203 1202 24.7028C1151.09 -22.0459 1103.5 13.7028 1086 40.2028C1068.5 66.7028 1065 81.7027 1065 154.703C1065 227.703 1118.5 356.703 1051 415.203C983.5 473.703 904.5 435.203 890 268.203C875.5 101.203 806.622 34.1796 754 103.203C715.5 153.703 699.5 277.203 701.5 334.203C704.974 433.203 687 494.703 632 498.703C577 502.703 579.886 389.703 570 352.203C555.5 297.203 527 294.203 503.5 334.203C478.363 376.989 500.908 473.162 465.5 476.703C440.5 479.203 445 427.203 443.5 389.703C442 352.203 413 317.203 397 373.703C381 430.203 342 441.703 324 422.203C306 402.703 317 367.203 244 242.203C171 117.203 6 105 0 55"
+            stroke="#6A6A6A"
+            stroke-width="1.5"
+            stroke-linecap="round"
+          />
+          <circle cx="0" cy="0" r="10" fill="#0b0b0b">
+            <animateMotion
+              repeatCount="indefinite"
+              dur="15s"
+              keyPoints="0;1;0"
+              keyTimes="0;1;1"
+            >
+              <mpath href="#curvePath" />
+            </animateMotion>
+          </circle>
+          <circle cx="0" cy="0" r="10" fill="#B52828">
+            <animateMotion
+              repeatCount="indefinite"
+              dur="20s"
+              keyPoints="0;1;0"
+              keyTimes="0;1;1"
+            >
+              <mpath href="#curvePath" />
+            </animateMotion>
+          </circle>
+          <circle cx="0" cy="0" r="10" fill="#b488c0">
+            <animateMotion
+              repeatCount="indefinite"
+              dur="25s"
+              keyPoints="0;1;0"
+              keyTimes="0;1;1"
+            >
+              <mpath href="#curvePath" />
+            </animateMotion>
+          </circle>
+        </svg>

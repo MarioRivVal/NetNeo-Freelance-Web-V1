@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Bruno+Ace&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>FreeLancer Web</title>
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="header u-radius-2">
+      <nav class="navigation u-flex-row">
+        <div class="navigation__logo u-flex-row u-gap-2">
+          <img src="img/freelance-logo.svg" alt="freelance-logo" />
+          <p class="u-uppercase">netneo<span class="u-uppercase">dev</span></p>
+        </div>
+        <div class="navigation__features u-flex-row u-gap-2">
+          <div class="navigation__story u-flex-row">
+            <a href="#" class="u-uppercase u-radius-full">story</a>
+            <img src="img/button-detail.svg" alt="" />
+          </div>
+          <div class="navigation__socials u-flex-row u-gap-1">
+            <p class="u-uppercase">follow on</p>
+            <a href="#"><img src="img/linkedin.svg" alt="linkedin-icon" /></a>
+            <a href="#"><img src="img/github.svg" alt="github-icon" /></a>
+            <a href="#"><img src="img/instagram.svg" alt="instagram-icon" /></a>
+          </div>
+        </div>
+      </nav>
+      <main class="main">
+        <div
+          class="main__box main__box--primary u-shadow u-radius-full be-showed"
+          style="--i: 0"
+        >
+          <img src="img/model.jpg" alt="model woman image" />
+        </div>
+        <div
+          class="main__box main__box--secondary u-shadow be-showed"
+          style="--i: 1"
+        ></div>
+        <div
+          class="main__box main__box--tertiary u-shadow be-showed"
+          style="--i: 2"
+        ></div>
+        <div class="main__title be-showed">
+          <h1>Web Design Studio</h1>
+          <div class="main__subtitle u-flex-row u-gap-1">
+            <img src="img/waves.svg" alt="waves icon" />
+            <p>Bring your idea to reality today</p>
+          </div>
+        </div>
+      </main>
+      <div class="projects">
+        <div class="projects__btn u-flex-row">
+          <a href="#" class="yellow-btn u-uppercase u-radius-full">projects</a>
+          <img src="img/button-detail-yellow.svg" alt="button-logo" />
+        </div>
+        <div class="projects__amount u-flex-row">
+          <img src="img/button-detail-three.svg" alt="" />
+          <p>over <span>300</span></p>
+        </div>
+      </div>
+      <object
+        type="image/svg+xml"
+        data="img/curveline.svg"
+        class="main__curveline-icon"
+      ></object>
+    </header>
+    <!-- SERVICES SECTION -->
+    <section class="services__section section">
+      <div class="services__container container">
+        <h2 class="secondary-title u-uppercase">services</h2>
+        <div class="services__cards u-radius-2">
+          <div
+            class="services__card services__card--1 u-radius-2 u-shadow be-showed"
+            style="--i: 0"
+          >
+            <div class="services__logo u-flex-row">
+              <div class="services__icon u-radius-full">
+                <object
+                  type="image/svg+xml"
+                  data="img/design-icon.svg"
+                ></object>
+              </div>
+              <img src="img/button-detail-white-violet.svg" alt="" />
+            </div>
+            <div class="services__service">
+              <p class="u-uppercase u-radius-2">web</p>
+              <p class="u-uppercase u-radius-2">design</p>
+            </div>
+            <img class="services__curve-icon" src="img/curve-sh.svg" alt="" />
+          </div>
+          <div
+            class="services__card services__card--2 u-radius-2 u-shadow be-showed"
+            style="--i: 1"
+          >
+            <div class="services__logo u-flex-row">
+              <div class="services__icon u-radius-full">
+                <object
+                  type="image/svg+xml"
+                  data="img/development-icon.svg"
+                ></object>
+              </div>
+              <img src="img/button-detail-white-yellow.svg" alt="" />
+            </div>
+            <div class="services__service">
+              <p class="u-uppercase u-radius-2">web</p>
+              <p class="u-uppercase u-radius-2">development</p>
+            </div>
+            <img class="services__curve-icon" src="img/curve-sh.svg" alt="" />
+          </div>
+          <div
+            class="services__card services__card--3 u-radius-2 u-shadow be-showed"
+            style="--i: 2"
+          >
+            <div class="services__logo u-flex-row">
+              <div class="services__icon u-radius-full">
+                <object
+                  type="image/svg+xml"
+                  data="img/analysis-icon.svg"
+                ></object>
+              </div>
+              <img src="img/button-detail-white-violet.svg" alt="" />
+            </div>
+            <div class="services__service">
+              <p class="u-uppercase u-radius-2">data</p>
+              <p class="u-uppercase u-radius-2">analytics</p>
+            </div>
+            <img class="services__curve-icon" src="img/curve-sh.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FORM SECTION -->
+    <section class="form-section section">
+      <div class="form__container container">
+        <h2 class="secondary-title u-uppercase">Tell me</h2>
+        <form action="#" class="form u-radius-2 be-showed">
+          <div class="form__group u-gap-1">
+            <label for="name" class="u-uppercase">name</label>
+            <input type="text" id="name" class="u-radius-2" />
+          </div>
+          <div class="form__group u-gap-1">
+            <label for="email" class="u-uppercase">email</label>
+            <input type="text" id="email" class="u-radius-2" />
+          </div>
+          <div class="form__group u-gap-1">
+            <label for="message" class="u-uppercase">idea</label>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="u-radius-2"
+            ></textarea>
+          </div>
+          <div class="form__btn u-flex-row">
+            <input
+              type="submit"
+              class="form__btn yellow-btn u-uppercase u-radius-full"
+            />
+            <img src="img/button-detail-yellow.svg" alt="" />
+          </div>
+          <object
+            type="image/svg+xml"
+            data="img/curveline.svg"
+            class="form__curveline-icon"
+          ></object>
+        </form>
+      </div>
+    </section>
+    <!-- FORM SECTION -->
+    <section class="footer-section section">
+      <div class="footer__container container">
+        <footer class="footer u-flex-row">
+          <p class="footer__title">Web Design Studio</p>
+          <div class="navigation__logo u-flex-row u-gap-2">
+            <img src="img/freelance-logo.svg" alt="freelance-logo" />
+            <p class="u-uppercase">
+              netneo<span class="u-uppercase">dev</span>
+            </p>
+          </div>
+        </footer>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

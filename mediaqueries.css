@@ -1,0 +1,50 @@
+/* ------------------------------------- */
+/************* MEDIA QUERIES *************/
+/* ------------------------------------- */
+
+@media (min-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  .navigation {
+    flex-direction: row;
+    padding: 0 6rem;
+  }
+  .navigation__socials p {
+    display: block;
+  }
+  .main {
+    gap: 2rem;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 3rem 0;
+  }
+  .main__title {
+    grid-column: 4/-1;
+    grid-row: 4/-1;
+  }
+  .services__cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .form {
+    width: 50%;
+  }
+  .footer {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 576px) {
+  .navigation__logo p {
+    font-size: 3.6rem;
+  }
+  .navigation__logo img {
+    width: auto;
+  }
+  .main__box--primary {
+    width: 31.5rem;
+    height: 56rem;
+  }
+  .main__title > h1 {
+    font-size: 5.8rem;
+  }
+}
